@@ -1,0 +1,1344 @@
+fileFormatVersion: 2
+guid: cf97deccabdc7f549932711f7cea2311
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -949720232925586961
+    second: ChestSparkleSprites_0
+  - first:
+      213: 4020111155672763323
+    second: ChestSparkleSprites_1
+  - first:
+      213: -9149185613395800219
+    second: ChestSparkleSprites_2
+  - first:
+      213: -1541920575006710667
+    second: ChestSparkleSprites_3
+  - first:
+      213: -2349926639763898012
+    second: ChestSparkleSprites_4
+  - first:
+      213: 1827808264625933345
+    second: ChestSparkleSprites_5
+  - first:
+      213: -6242816847913505364
+    second: ChestSparkleSprites_6
+  - first:
+      213: 2358131450101148270
+    second: ChestSparkleSprites_7
+  - first:
+      213: -2748211819135584487
+    second: ChestSparkleSprites_8
+  - first:
+      213: -5996749609418312802
+    second: ChestSparkleSprites_9
+  - first:
+      213: -3698959983490520866
+    second: ChestSparkleSprites_10
+  - first:
+      213: -7036539823499401346
+    second: ChestSparkleSprites_11
+  - first:
+      213: 5109555313535438568
+    second: ChestSparkleSprites_12
+  - first:
+      213: -390304848491230575
+    second: ChestSparkleSprites_13
+  - first:
+      213: -6297037988698539608
+    second: ChestSparkleSprites_14
+  - first:
+      213: 8834169787639042445
+    second: ChestSparkleSprites_15
+  - first:
+      213: 9178492546247619852
+    second: ChestSparkleSprites_16
+  - first:
+      213: 3520028436490888232
+    second: ChestSparkleSprites_17
+  - first:
+      213: -1175040285954904349
+    second: ChestSparkleSprites_18
+  - first:
+      213: 6433431458018859134
+    second: ChestSparkleSprites_19
+  - first:
+      213: -3893108137218736436
+    second: ChestSparkleSprites_20
+  - first:
+      213: 4389232969470033158
+    second: ChestSparkleSprites_21
+  - first:
+      213: -8347634787191912498
+    second: ChestSparkleSprites_22
+  - first:
+      213: 6157099525311431357
+    second: ChestSparkleSprites_23
+  - first:
+      213: -4867555670432786638
+    second: ChestSparkleSprites_24
+  - first:
+      213: -9122113033266413120
+    second: ChestSparkleSprites_25
+  - first:
+      213: -7319970683833362836
+    second: ChestSparkleSprites_26
+  - first:
+      213: -6896074396712276705
+    second: ChestSparkleSprites_27
+  - first:
+      213: 983372925248883916
+    second: ChestSparkleSprites_28
+  - first:
+      213: -5472451647259145733
+    second: ChestSparkleSprites_29
+  - first:
+      213: -9108734714629732414
+    second: ChestSparkleSprites_30
+  - first:
+      213: 419750229759328810
+    second: ChestSparkleSprites_31
+  - first:
+      213: -4034096719222204775
+    second: ChestSparkleSprites_32
+  - first:
+      213: -6126208289421099309
+    second: ChestSparkleSprites_33
+  - first:
+      213: 720004384981457980
+    second: ChestSparkleSprites_34
+  - first:
+      213: -1550796448233645678
+    second: ChestSparkleSprites_35
+  - first:
+      213: 508215320936620720
+    second: ChestSparkleSprites_36
+  - first:
+      213: 7299393179584186312
+    second: ChestSparkleSprites_37
+  - first:
+      213: -8943522413687193376
+    second: ChestSparkleSprites_38
+  - first:
+      213: -4320697019678074743
+    second: ChestSparkleSprites_39
+  - first:
+      213: 517775922927566915
+    second: ChestSparkleSprites_40
+  - first:
+      213: -1999393314518701445
+    second: ChestSparkleSprites_41
+  - first:
+      213: -1347510426872719952
+    second: ChestSparkleSprites_42
+  - first:
+      213: -6662279241336616340
+    second: ChestSparkleSprites_43
+  - first:
+      213: 2420211279443390651
+    second: ChestSparkleSprites_44
+  - first:
+      213: 9121263495190153312
+    second: ChestSparkleSprites_45
+  - first:
+      213: -8296271771499114438
+    second: ChestSparkleSprites_46
+  - first:
+      213: 8803172726877452634
+    second: ChestSparkleSprites_47
+  - first:
+      213: 7172694523085153457
+    second: ChestSparkleSprites_48
+  - first:
+      213: 6203338475903742890
+    second: ChestSparkleSprites_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChestSparkleSprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe91870ea7ae1d2f0800000000000000
+      internalID: -949720232925586961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 196.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbc57febcd4ac730800000000000000
+      internalID: 4020111155672763323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 196.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fcd69b820970180800000000000000
+      internalID: -9149185613395800219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 196.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574ebde086ff99ae0800000000000000
+      internalID: -1541920575006710667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 196.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46145aceb22636fd0800000000000000
+      internalID: -2349926639763898012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 196.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c4d8abeedad5910800000000000000
+      internalID: 1827808264625933345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 196.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadaa46172f0d59a0800000000000000
+      internalID: -6242816847913505364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 196.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6aa4f85f04c9b020800000000000000
+      internalID: 2358131450101148270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 196.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917b4e049e36cd9d0800000000000000
+      internalID: -2748211819135584487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 196.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93b8ab900447cca0800000000000000
+      internalID: -5996749609418312802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 147.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8a9a13e77aaacc0800000000000000
+      internalID: -3698959983490520866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 147.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77ad6ccf40395e90800000000000000
+      internalID: -7036539823499401346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 147.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee4d7f6c79c8e640800000000000000
+      internalID: 5109555313535438568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_13
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 147.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a4197eecb559af0800000000000000
+      internalID: -390304848491230575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_14
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 147.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9bb7aff4d6c98a0800000000000000
+      internalID: -6297037988698539608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_15
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 147.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8196bdcd96499a70800000000000000
+      internalID: 8834169787639042445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_16
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 147.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05f8a0575e806f70800000000000000
+      internalID: 9178492546247619852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 147.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824205c8637a9d030800000000000000
+      internalID: 3520028436490888232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 147.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee62e6e51b61bfe0800000000000000
+      internalID: -1175040285954904349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_19
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 147.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78990643d3284950800000000000000
+      internalID: 6433431458018859134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccef4e896c6e8f9c0800000000000000
+      internalID: -3893108137218736436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_21
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 98.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60db1bd6120b9ec30800000000000000
+      internalID: 4389232969470033158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 98.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec78bb2836e372c80800000000000000
+      internalID: -8347634787191912498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 98.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db20ae48569627550800000000000000
+      internalID: 6157099525311431357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_24
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 98.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2375a6b38e7f27cb0800000000000000
+      internalID: -4867555670432786638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 98.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1c13bf68eb76180800000000000000
+      internalID: -9122113033266413120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 98.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66d6d7227d3a6a90800000000000000
+      internalID: -7319970683833362836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_27
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 98.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d6c478fd83c40a0800000000000000
+      internalID: -6896074396712276705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_28
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 98.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc42332774a5ad00800000000000000
+      internalID: 983372925248883916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_29
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 98.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf90e9a9832fd04b0800000000000000
+      internalID: -5472451647259145733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7c9358906479180800000000000000
+      internalID: -9108734714629732414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 49.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22813b2c9043d500800000000000000
+      internalID: 419750229759328810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_32
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 49.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996113d48620408c0800000000000000
+      internalID: -4034096719222204775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_33
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 49.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de7001d4065bfaa0800000000000000
+      internalID: -6126208289421099309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 49.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c1b836c28fdf900800000000000000
+      internalID: 720004384981457980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_35
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 49.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2999818c8d67a7ae0800000000000000
+      internalID: -1550796448233645678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_36
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 49.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a6d9442b8d0700800000000000000
+      internalID: 508215320936620720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_37
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 49.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c746094c67ac4560800000000000000
+      internalID: 7299393179584186312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_38
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 49.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e04e63efb932e380800000000000000
+      internalID: -8943522413687193376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_39
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 49.8
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988dfffd3fcc904c0800000000000000
+      internalID: -4320697019678074743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.79999924
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340095765728f2700800000000000000
+      internalID: 517775922927566915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_41
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0.79999924
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a62d9af5ab044e0800000000000000
+      internalID: -1999393314518701445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_42
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0.79999924
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5dd1bf76eac4de0800000000000000
+      internalID: -1347510426872719952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_43
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0.79999924
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a0ca90454da83a0800000000000000
+      internalID: -6662279241336616340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_44
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0.79999924
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0fd98f551569120800000000000000
+      internalID: 2420211279443390651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_45
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0.79999924
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0680c8582dc359e70800000000000000
+      internalID: 9121263495190153312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_46
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0.79999924
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30d1b387c8bddc80800000000000000
+      internalID: -8296271771499114438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_47
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0.79999924
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59ffe134f62b2a70800000000000000
+      internalID: 8803172726877452634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_48
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0.79999924
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b461ea8aa78a8360800000000000000
+      internalID: 7172694523085153457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChestSparkleSprites_49
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 0.79999924
+        width: 49.1
+        height: 49.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa371c52a7fa61650800000000000000
+      internalID: 6203338475903742890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
