@@ -4,22 +4,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
 using UnityEngine.UI;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
-    private float _speed = 3;
-    
+    public int gunIDNum = 1;
+    public int _enemiesKilled;
+    public int _numberOfKeys = 0;
+
+    private float _speed = 3;   
     private float _playerHealth = 10;
-    private int _enemiesKilled;
+    private float _spikeDamageDelay;
+    private float _delaySeconds = 0.25f;
 
     private bool _collidingWithSpike;
     private bool _collidingWithBigDemon;
     private bool _fellInHole = false;
+    private bool _foundCandyCannon;
 
     private Animator _animator;
 
     [SerializeField]
-    private AudioClip __bigDemonDeath;
+    private AudioClip _bigDemonDeath;
     private Rigidbody2D _rigidbody;
     [SerializeField]
     private SpriteRenderer _spriteRenderer;
@@ -49,6 +55,12 @@ public class Player : MonoBehaviour
     private GameObject _aim;
     [SerializeField]
     private GameManager _gameManager;
+    [SerializeField]
+    private TextMeshProUGUI _keyText;
+    [SerializeField]
+    private GameObject _pistol;
+    [SerializeField]
+    private GameObject _cannon;
 
     private Vector2 _movement;
 
@@ -58,12 +70,26 @@ public class Player : MonoBehaviour
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody2D>();
 
+        _spikeDamageDelay = Time.time;
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {                     
+        _keyText.text = "x " + _numberOfKeys;
+        
         _healthBar.fillAmount = _playerHealth / 10;
+
+        if(gunIDNum == 1)
+        {
+            _pistol.SetActive(true);
+            _cannon.SetActive(false);
+        }
+        if(gunIDNum == 2 && _foundCandyCannon)
+        {
+            _pistol.SetActive(false);
+            _cannon.SetActive(true);
+        }
         
         //_movement.x = Input.GetAxisRaw("Horizontal");
         //_movement.y = Input.GetAxisRaw("Vertical");
@@ -72,11 +98,19 @@ public class Player : MonoBehaviour
         //_animator.SetFloat("Vertical", _movement.y);
         //_animator.SetFloat("Speed", _movement.sqrMagnitude);
 
+        if (_collidingWithSpike == true && Time.time > _spikeDamageDelay)
+        {
+            _playerHealth--;
+            _spriteRenderer.color = Color.red;
+            _spikeDamageDelay = Time.time + _delaySeconds;
+        }
+
         if(_playerHealth < 1 && !_fellInHole)
         {
             Destroy(_gun);
             Destroy(_shooting);
             Destroy(_aim);
+            Destroy(_cannon);
             _speed = 0;
             
             if (_fellInHole == false)
@@ -84,7 +118,7 @@ public class Player : MonoBehaviour
                 _animator.SetBool("PlayerDied", true);
             }
            
-            _audioSourse.clip = __bigDemonDeath;
+            _audioSourse.clip = _bigDemonDeath;
             _audioSourse.Play();
             _gameManager.GameOver();
             Destroy(this.gameObject,2);
@@ -115,7 +149,6 @@ public class Player : MonoBehaviour
         {
             _audioSourse.Play();
         }
-
     }
 
     private void FixedUpdate()
@@ -131,7 +164,27 @@ public class Player : MonoBehaviour
             _spriteRenderer.sprite = _baseSprite;
         }
     }
+    
+    public void SetFoundCannonTrue()
+    {
+        _foundCandyCannon = true;
+    }
 
+    public bool CannonHasBeenFound()
+    {
+        return _foundCandyCannon;
+    }
+    
+    public void AddOneToKeys()
+    {
+        _numberOfKeys++;
+    }
+
+    public void SubtractOneFromKeys()
+    {
+        _numberOfKeys--;
+    }
+    
     public void SetCollisionWithSpikeFalse()
     {
         _collidingWithSpike = false;
@@ -189,6 +242,13 @@ public class Player : MonoBehaviour
             Destroy(collision.gameObject);
             StartCoroutine(PlayerDamageFlash());
         }
+        
+        if (collision.CompareTag("Explosion"))
+        {
+            _playerHealth -= 5;
+            Destroy(collision.gameObject);
+            StartCoroutine(PlayerDamageFlash());
+        }
     }
 
     public void OnTriggerExit2D(Collider2D collision)
@@ -200,7 +260,7 @@ public class Player : MonoBehaviour
     public void DamagePlayerByOne()
     {
         _playerHealth--;
-        PlayerDamageFlash();
+        StartCoroutine(PlayerDamageFlash());
         Debug.Log("Player Damaged");
     }
 

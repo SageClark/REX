@@ -8,11 +8,14 @@ public class BigDemon : MonoBehaviour
     private float _minDistance = 3f;
     private float _distance;
     private float _bulletForce = 20000;
+    private float _timeToWait;
 
     private int _enemyHealth = 5;
 
     private bool _hitByPlayer;
     private bool _playerInRange;
+    private bool _collidingWithGas;
+    private bool _addedOneToDead;
 
     private GameObject _player;
     private Transform _playerTransform;
@@ -38,6 +41,8 @@ public class BigDemon : MonoBehaviour
         _playerTransform = GameObject.Find("Player").GetComponent<Transform>();
         _animator = GetComponent<Animator>();
         _audioSource = GetComponent<AudioSource>();
+
+        _timeToWait = Time.time;
     }
 
     // Update is called once per frame
@@ -47,8 +52,8 @@ public class BigDemon : MonoBehaviour
         Vector3 enemyPos = transform.position;
 
         _distance = Vector3.Distance(_playerTransform.position, transform.position);
-        
-        if (_distance < _minDistance)
+
+        if (_distance < _minDistance || _hitByPlayer)
         {
             _playerInRange = true;
         }
@@ -74,16 +79,23 @@ public class BigDemon : MonoBehaviour
             _spriteRenderer.flipX = false;
         }
 
-        if (_enemyHealth < 1)
+        if (_enemyHealth < 1 && !_addedOneToDead)
         {
             _audioSource.Play();
             _playerScript.SetBigDemonCollisionFalse();
             _playerScript.AddToEnemiesKilled();
+            _addedOneToDead = true;
             _speed = 0;
             _animator.SetTrigger("EnemyIsDead");
             Destroy(_rb);
             Destroy(_boxCollider);
             Destroy(this.gameObject, 2f); // was 0.6f
+        }
+
+        if (_collidingWithGas && Time.time > _timeToWait)
+        {
+            _enemyHealth--;
+            _timeToWait = Time.time + 0.2f;
         }
     }
 
@@ -96,6 +108,33 @@ public class BigDemon : MonoBehaviour
             StartCoroutine(EnemyHitColorChange());
             Destroy(collision.gameObject);
             StartCoroutine(KnockBackRoutine());
+        }
+        
+        if (collision.CompareTag("CandyBullet"))
+        {
+            _enemyHealth--;
+            _hitByPlayer = true;
+            StartCoroutine(EnemyHitColorChange());
+            Destroy(collision.gameObject);
+        }
+        
+        if (collision.CompareTag("GasCloud"))
+        {
+            _collidingWithGas = true;
+        }
+
+        if (collision.CompareTag("Explosion"))
+        {
+            _enemyHealth -= 5;
+            StartCoroutine(EnemyHitColorChange());
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("GasCloud"))
+        {
+            _collidingWithGas = false;
         }
     }
 

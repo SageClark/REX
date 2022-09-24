@@ -5,7 +5,7 @@ using UnityEngine;
 public class Chest : MonoBehaviour
 {
     [SerializeField]
-    private GameObject _player;
+    private GameObject _playerObject;
     [SerializeField]
     private GameObject _sparkles;
     [SerializeField]
@@ -23,7 +23,7 @@ public class Chest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerPos = _player.transform.position;
+        Vector3 playerPos = _playerObject.transform.position;
         Vector3 chestPos = transform.position;
 
         float distanceFromChest = Vector3.Distance(chestPos, playerPos);

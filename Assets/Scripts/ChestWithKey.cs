@@ -5,7 +5,9 @@ using UnityEngine;
 public class ChestWithKey : MonoBehaviour
 {
     [SerializeField]
-    private GameObject _player;
+    private GameObject _playerObject;
+    [SerializeField]
+    private Player _playerScript;
     [SerializeField]
     private GameObject _sparkles;
     [SerializeField]
@@ -26,7 +28,7 @@ public class ChestWithKey : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerPos = _player.transform.position;
+        Vector3 playerPos = _playerObject.transform.position;
         Vector3 chestPos = transform.position;
 
         float distanceFromChest = Vector3.Distance(chestPos, playerPos);
@@ -38,6 +40,7 @@ public class ChestWithKey : MonoBehaviour
             _sparkles.SetActive(false);
             _backLight.SetActive(false);
             _key.SetActive(true);
+            _playerScript.AddOneToKeys();
         }
     }
 }

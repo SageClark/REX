@@ -10,6 +10,12 @@ TagManager:
   - NecroBlast
   - Wall
   - Light
+  - GasCloud
+  - Necroman
+  - CandyBullet
+  - Explosion
+  - Door1
+  - Door2
   layers:
   - Default
   - TransparentFX

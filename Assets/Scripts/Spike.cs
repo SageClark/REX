@@ -28,7 +28,7 @@ public class Spike : MonoBehaviour
             if (collision.CompareTag("Foot"))
             {
                 _playerScript.SetCollisionWithSpikeTrue();
-                StartCoroutine(_playerScript.SpikeDamageOverTime());
+               // StartCoroutine(_playerScript.SpikeDamageOverTime());
             }
         }
     }
@@ -38,10 +38,11 @@ public class Spike : MonoBehaviour
         if (collision.CompareTag("Foot"))
         {
             _playerScript.SetCollisionWithSpikeFalse();
+            _playerRenderer.color = Color.white;
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+   /* private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.tag == "Foot" && Time.deltaTime > _timeToWait)
         {
@@ -49,5 +50,5 @@ public class Spike : MonoBehaviour
             _playerRenderer.color = Color.white;
             _timeToWait = Time.deltaTime + 1f;
         }               
-    } 
+    } */
 }

@@ -9,11 +9,14 @@ public class Necromancer : MonoBehaviour
     private float _frequency = 1.0f;
     private float _amplitude = 1.0f;
     private float _timeToFire;
+    private float _timeToWait;
 
     private int _enemyHealth = 3;
 
     private bool _hitByPlayer;
     private bool _playerInRange;
+    private bool _collidingWithGas;
+    private bool _addedOneToDead;
 
     private GameObject _player;
     private Transform _playerTransform;
@@ -64,14 +67,21 @@ public class Necromancer : MonoBehaviour
             _spriteRenderer.flipX = false;
         }
 
-        if (_enemyHealth < 1)
+        if (_enemyHealth < 1 && !_addedOneToDead)
         {
             _playerScript.AddToEnemiesKilled();
+            _addedOneToDead = true;
             _animator.SetBool("PlayerInRange", false);
             _animator.SetBool("EnemyIsDead", true);
             Destroy(this.gameObject, 0.6f);
         }
-        
+
+        if (_collidingWithGas && Time.time > _timeToWait)
+        {
+            _enemyHealth--;
+            _timeToWait = Time.time + 0.2f;
+        }
+
         _pos = transform.position;
         _axis = transform.right;
     }
@@ -95,6 +105,16 @@ public class Necromancer : MonoBehaviour
             Destroy(collision.gameObject);
         }
 
+        if (collision.CompareTag("GasCloud"))
+        {
+            _collidingWithGas = true;
+        }
+
+        if (collision.CompareTag("Explosion"))
+        {
+            _enemyHealth -= 5;
+            StartCoroutine(EnemyHitColorChange());
+        }
     }
 
     public IEnumerator EnemyHitColorChange()
